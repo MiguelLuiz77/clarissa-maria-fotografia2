@@ -40,6 +40,8 @@ Cada card da seção “Mais tipos de ensaio” abre uma galeria própria com se
 - Ensaio de família — 4 fotos
 - Ensaio de formandos — 4 fotos
 
+Cada tipo de ensaio também possui o botão “Agendar este ensaio”. Ele abre o WhatsApp da fotógrafa com uma mensagem inicial já identificando a categoria escolhida.
+
 As galerias usam somente as fotos enviadas pelo cliente. As imagens adicionais ficam na pasta `assets/` com nomes agrupados por ensaio.
 
 ## Contato

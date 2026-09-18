@@ -95,6 +95,10 @@ h1 { max-width: 780px; margin: 0 auto 1.35rem; font-size: clamp(3.25rem, 7vw, 6.
 .service-card p { margin-bottom: 1.7rem; color: var(--muted); font-size: .92rem; line-height: 1.65; }
 .service-card a { display: inline-flex; align-items: center; gap: .65rem; margin-top: auto; color: var(--gold); font-size: .74rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .service-card a:hover { color: var(--ink); }
+.service-actions { display: flex; flex-direction: column; align-items: flex-start; gap: .8rem; margin-top: auto; }
+.service-actions .gallery-link { margin-top: 0; }
+.service-booking { min-height: 40px; display: inline-flex; align-items: center; gap: .65rem; margin-top: 0 !important; padding: .6rem .85rem; border: 1px solid var(--ink); color: #fff !important; background: var(--ink); font-size: .68rem !important; letter-spacing: .1em !important; transition: background .2s ease, color .2s ease, transform .2s ease; }
+.service-booking:hover, .service-booking:focus-visible { color: var(--ink) !important; background: transparent; transform: translateY(-2px); }
 .gallery-link { display: inline-flex; align-items: center; gap: .65rem; align-self: flex-start; margin-top: auto; padding: 0; border: 0; color: var(--gold); background: transparent; cursor: pointer; font-family: inherit; font-size: .74rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .gallery-link:hover, .gallery-link:focus-visible { color: var(--ink); }
 
